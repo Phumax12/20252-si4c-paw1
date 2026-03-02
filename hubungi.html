@@ -3,9 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>kontak</title>
+    <title>hubungi</title>
 </head>
 <body>
     <h1>Hubungi kami</h1>
+    <!-- form -->
+    <form action="submit.html" method="post">
+        Npm <br>
+        <input type="text" name="npm" id="npm"> <br>
+        Nama <br>
+        <input type="text" name="nama" id="nama"> <br>
+        email <br>
+        <input type="email" name="email" id="email"> <br>
+        tanggal lahir <br>
+        <input type="date" name="tanggal_lahir" id="tanggal_lahir"> <br>
+        kota lahir <br>
+        <select name="kotalahir" id="kotalahir">
+            <option value="palembang">palembang</option>
+            <option value="bogor">bogor</option>
+            <option value="bandung">Bandung</option>
+            <option value="jakarta">Jakarta</option>
+            <option value="btm">batam</option>
+            <option value="jepang">jepang</option>
+            <option value="korea">korea</option>
+            <option value="singapura">singapura</option>
+            <option value="arab">arab</option>
+        </select> <br>
+        jenis kelamin <br>
+        <input type="radio" name="jeniskelamin" id="laki-laki" value="laki-laki" checked>
+        laki laki <br>
+        <input type="radio" name="jeniskelamin" id="perempuan" value="perempuan">
+        perempuan <br>
+        mengetahui MDP dari mana <br>
+        <input type="checkbox" name="cb1" value="k">
+        keluarga <br>
+        <input type="checkbox" name="cb2" id="sm">
+        sosial media <br>
+        <input type="checkbox" name="cb3" id="tt">
+        teman <br>
+        <input type="checkbox" name="cb4" id="t">
+        tetangga <br>
+        foto <br>
+        <input type="file" name="foto" id=""> <br>
+        <button type="submit">simpan</button>
+        <button type="reset">reset</button>
+   </form>
 </body>
 </html>
