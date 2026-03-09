@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+}
+/* hp max-width 600px*/
+@media screen and (max-width: 600px) {
+    /* element selector body */
+    body{
+        background-color: blue;
+    }
+
+img {
+    width : 10%;
+}
+ 
+.padding-10 {
+    padding: 10px;
+}
+
+.row {
+    clear: both;
+}
+}
+/* tablet min_width 600 px*/
+@media screen and (min-width: 600px) {
+    /* element selector body */
+    body{
+        background-color: green;
+    }
+    .col-lg-50 {
+        width: 50%;
+        float: left;
+    }
+    .col-tab-100 {
+        width: 100%;
+        float: left;
+    }
+    
+}
+/* desktop min-widht : 992px*/
+@media screen and (min-width: 992px) {
+    /* element selector body */
+    body{
+        background-color: grey;
+    }
+    /* class selector */
+    .col-lg-25 {
+        width: 25%;
+        float: left;
+    }
+    .col-desk-50 {
+        width: 50%;
+        float: left;
+    }
+    
+}
+
+.text-center {
+    text-align: center;
+}
+
+.bd-radius {
+    border-radius: 1000px;
+}
