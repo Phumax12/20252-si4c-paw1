@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>belajar java script</h1>
+    <p id="demo">hello</p>
+
+    <!-- inline -->
+     <button onclick="alert('selamat datang')">klik</button>
+
+     <!-- internal js -->
+      <script>
+        //ini komentar di js
+        //mengubah konten paragfraf id=demo
+        document.getElementById("demo").innerHTML = "text hello di ubah menjadi selamat datang";
+
+        //mengubah warna paragraf id=demo
+        document.getElementById("demo").style.color = "green";
+
+        //menampilkan pesan di console browser
+        console.log("pesan ini dapat dilihat di console browser");
+      </script>
+
+      <script src="script.js"></script>
+</body>
+</html>
